@@ -24,8 +24,8 @@
 },
 {
   "name": "octopus",
-  "diet": [""]
-}
+  "diet": ["low-carb", "keto", "high-protein", "paleo", pescatarian]
+},
 {
   "name": "crab",
   "diet": ["low-carb", "keto", "high-protein", "paleo", "pescatarian"]
