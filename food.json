@@ -1,16 +1,57 @@
 {
   "name": "pork",
-  "diet": ["low-carb", "high protein", "paleo", "keto"]
+  "diet": ["low-carb", "high-protein", "paleo", "keto"]
 },
 {
   "name": "beef",
-  "diet": ["low-carb", "high protein", "paleo", "keto", "kosher"]
-},
-{
-  "name": "fish",
-  "diet": ["low-carb", "high protein", "paleo", "keto"]
+  "diet": ["low-carb", "high-protein", "paleo", "keto", "kosher"]
 },
 {
   "name": "lamb",
-  "diet": ["low-carb", "high protein", "paleo", "keto"]
+  "diet": ["low-carb", "high-protein", "paleo", "keto", "kosher"]
 },
+{
+  "name": "fish",
+  "diet": ["low-carb", "high-protein", "paleo", "keto", "kosher", "pescatarian"]
+},
+{
+  "name": "crab",
+  "diet": ["low-carb", "high-protein", "paleo", "keto", "pescatarian"]
+},
+{
+  "name": "lobster",
+  "diet": ["low-carb", "high-protein", "paleo", "keto", "pescatarian"]
+},
+
+{
+  "name": "honey",
+  "diet": ["kosher", "vegetarian", "pescatarian"]
+},
+{
+  "name": "desert locust",
+  "diet": ["high-protein", "paleo", "kosher"]
+},
+{
+  "name": "butter",
+  "diet": ["low-carb", "keto", "vegetarian", "pescatarian"]
+}
+{
+  "name": "kale",
+  "diet": ["paleo", "kosher", "vegan", "vegetarian", "pescatarian"]
+},
+{
+  "name": "apple",
+  "diet": ["paleo", "kosher", "vegan", "vegetarian", "pescatarian"]
+},
+{
+  "name": "peanut",
+  "diet": ["high-protein", "vegan", "vegetarian", "pescatarian"]
+},
+{
+  "name": "potato",
+  "diet": ["paleo", "vegan", "vegetarian", "pescatarian"]
+},
+{
+  "name": "",
+  "diet": [""]
+}
