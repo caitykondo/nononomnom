@@ -1,0 +1,16 @@
+{
+  "name": "pork",
+  "diet": ["low-carb", "high protein", "paleo", "keto"]
+},
+{
+  "name": "beef",
+  "diet": ["low-carb", "high protein", "paleo", "keto", "kosher"]
+},
+{
+  "name": "fish",
+  "diet": ["low-carb", "high protein", "paleo", "keto"]
+},
+{
+  "name": "lamb",
+  "diet": ["low-carb", "high protein", "paleo", "keto"]
+},
