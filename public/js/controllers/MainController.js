@@ -1,4 +1,5 @@
-myApp.controller('MainController', [
-  '$scope',
-  function ($scope) {
+myApp.controller('MainController',  [
+  '$scope', '$http', 'FoodDataFactory',
+  function ($scope, $http, FoodDataFactory) {
+    $scope.foodData = FoodDataFactory;
 }]);
