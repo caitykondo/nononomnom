@@ -1,0 +1,16 @@
+<div class="container">
+  <h2>Is</h2>
+  <form action="">
+    <input type="text" name="name" ng-model="foodFill" placeholder="Your Food">
+    <!-- {{foodDataIpsum[0].name}} -->
+    <div ng-repeat="food in foodDataIpsum | filter:foodFill">
+      <div>
+        {{food.name}}
+      </div>
+    </div>
+    <input type="dropdown" name="diet" ng-model="diet" placeholder="Diet">
+    <button type="submit" ng-click="CheckDiet.getData();">check</button>
+  </form>
+  <h2>?</h2>
+  {{foodData}}
+</div>
