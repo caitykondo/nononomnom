@@ -1,4 +1,5 @@
 myApp.controller('AppController', [
-  '$scope',
-  function ($scope) {
+  '$scope', 'CheckDiet',
+  function ($scope, CheckDiet) {
+    $scope.CheckDiet = CheckDiet;
 }]);
