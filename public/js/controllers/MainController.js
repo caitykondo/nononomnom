@@ -1,5 +1,5 @@
 myApp.controller('MainController',  [
   '$scope', '$http', 'FoodDataFactory',
-  function ($scope, $http, FoodDataFactory) {
+  function ($scope, FoodDataFactory) {
     $scope.foodData = FoodDataFactory;
 }]);
