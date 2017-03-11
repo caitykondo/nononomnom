@@ -1,4 +1,4 @@
-myApp.controller('MainController', [
+myApp.controller('AppController', [
   '$scope',
   function ($scope) {
 }]);
