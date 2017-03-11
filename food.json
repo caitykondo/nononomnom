@@ -1,28 +1,39 @@
 {
   "name": "pork",
-  "diet": ["low-carb", "high-protein", "paleo", "keto"]
+  "diet": ["low-carb" "keto", "high-protein", "paleo"]
+},
+{
+  "name": "bacon",
+  "diet": ["low-carb" "keto", "high-protein"]
+},
+{
+  "name": "sausage",
+  "diet": ["low-carb" "keto", "high-protein"]
 },
 {
   "name": "beef",
-  "diet": ["low-carb", "high-protein", "paleo", "keto", "kosher"]
+  "diet": ["low-carb", "keto", "high-protein", "paleo", "kosher"]
 },
 {
   "name": "lamb",
-  "diet": ["low-carb", "high-protein", "paleo", "keto", "kosher"]
+  "diet": ["low-carb", "keto", "high-protein", "paleo", "kosher"]
 },
 {
   "name": "fish",
-  "diet": ["low-carb", "high-protein", "paleo", "keto", "kosher", "pescatarian"]
+  "diet": ["low-carb", "keto", "high-protein", "paleo", "kosher", "pescatarian"]
 },
 {
+  "name": "octopus",
+  "diet": [""]
+}
+{
   "name": "crab",
-  "diet": ["low-carb", "high-protein", "paleo", "keto", "pescatarian"]
+  "diet": ["low-carb", "keto", "high-protein", "paleo", "pescatarian"]
 },
 {
   "name": "lobster",
-  "diet": ["low-carb", "high-protein", "paleo", "keto", "pescatarian"]
+  "diet": ["low-carb", "keto", "high-protein", "paleo", "pescatarian"]
 },
-
 {
   "name": "honey",
   "diet": ["kosher", "vegetarian", "pescatarian"]
@@ -34,7 +45,11 @@
 {
   "name": "butter",
   "diet": ["low-carb", "keto", "vegetarian", "pescatarian"]
-}
+},
+{
+  "name": "egg",
+  "diet": ["low-carb", "keto", "high-protein", "paleo", "vegetarian", "pescatarian"]
+},
 {
   "name": "kale",
   "diet": ["paleo", "kosher", "vegan", "vegetarian", "pescatarian"]
