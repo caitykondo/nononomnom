@@ -111,10 +111,9 @@ body {
   #mkt .testimonials .button {
     background: #FFC600;
     color: #ffffff;
-    width: 8rem;
     text-align: center;
     text-decoration: none;
-    padding: 1rem;
+    padding: 1rem 3rem;
     border-radius: 8rem; }
 
 #mkt .section02 {
