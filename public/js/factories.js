@@ -3,8 +3,9 @@ myApp.factory('FoodDataFactory', [
   ($http) => {
     var obj = {content:null};
 
-    $http.get('food.json').success(function(data) {
+    $http.get('./food.json').success(function(data) {
         obj.content = data;
+        console.log(data);
     });
 
     return obj;

@@ -16,6 +16,7 @@ myApp.service('ReginaService', function () {
   ];
 
   this.regina = function (foodQuery, dietQuery) {
+    console.log(foodQuery, dietQuery);
     var foundFood = null;
 
     this.foods.forEach((element) => {
@@ -23,7 +24,7 @@ myApp.service('ReginaService', function () {
         foundFood = element;
       }
     });
-  
+
     for(i = 0; i < foundFood.diet.length; ++i){
       if (dietQuery === foundFood.diet[i]){
         return "yes";
