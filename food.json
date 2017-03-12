@@ -1,5 +1,6 @@
 {  
-  "foods": [{
+  "foods": [
+    {
       "name": "pork",
       "diet": ["low-carb", "keto", "high-protein", "paleo"]
     },
