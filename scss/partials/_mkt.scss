@@ -99,11 +99,22 @@
 
   .section02 {
     background: $gray;
-    padding: 2rem 0;
+    padding: 4rem 0;
     text-align: center;
 
     h3 {
       color: $gray-light;
+    }
+  }
+
+  .footer {
+    background: $gray-dark;
+    padding: 1rem 0;
+    text-align: center;
+
+    p {
+      color: $gray;
+      font-size: 1rem;
     }
   }
 
