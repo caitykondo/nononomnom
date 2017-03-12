@@ -1,4 +1,4 @@
-myApp.service('CheckDiet',  ['FoodDataFactory' , function(FoodDataFactory){
+myApp.service('CheckDiet',  ['FoodDataFactory', '$location', function(FoodDataFactory, $location){
   console.log('FoodDataFactory', FoodDataFactory);
   this.sanityCheck = function () {
     console.log('sanity check');
@@ -21,11 +21,10 @@ myApp.service('CheckDiet',  ['FoodDataFactory' , function(FoodDataFactory){
     for(i = 0; i < foundFood.diet.length; ++i){
       if (dietQuery === foundFood.diet[i]){
         console.log('yes');
-        $location.path('/yes');
+        return $location.path('/yes');
       }
     }
     console.log('no');
     $location.path('/no');
   };
-
 }]);
