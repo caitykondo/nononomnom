@@ -2,17 +2,13 @@
   <h2>Is</h2>
   <form action="">
     <input type="text" ng-model="foodQuery" placeholder="Your Food">
-    <div ng-model="foodQuery" ng-repeat="food in foodDataIpsum | filter:foodQuery">
+    <div ng-model="foodQuery" ng-repeat="food in foodData.content.foods | filter:foodQuery">
       <div>
         {{food.name}}
       </div>
     </div>
     <input type="text" ng-model="dietQuery" placeholder="Your Diet">
-    <!-- <select>
-      <option ng-repeat="diet in dietList">{{diet}}</option>
-    </select> -->
     <button type="submit" ng-click="CheckDiet.regina(foodQuery,dietQuery);">check</button>
   </form>
   <h2>?</h2>
-  {{foodData}}
 </div>
