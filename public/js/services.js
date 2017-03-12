@@ -20,9 +20,11 @@ myApp.service('CheckDiet',  ['FoodDataFactory' , function(FoodDataFactory){
 
     for(i = 0; i < foundFood.diet.length; ++i){
       if (dietQuery === foundFood.diet[i]){
+        console.log('yes');
         return "yes";
       }
     }
+    console.log('no');
     return "no";
   };
 
