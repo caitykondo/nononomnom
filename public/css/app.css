@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500");
+body {
+  border: 0;
+  margin: 0; }
+  body h1, body h2, body h3, body h4, body p {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0; }
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+body {
+  font-family: 'Rubik', sans-serif; }
+  body .container {
+    width: 80%;
+    margin: 0 auto; }
+
+#mkt .nav {
+  display: block;
+  width: 100%;
+  background: #ffffff;
+  position: fixed; }
+  #mkt .nav h4 {
+    font-weight: 500;
+    color: #FFAA00;
+    font-size: 1.4rem;
+    letter-spacing: 1;
+    padding: 1rem 0;
+    margin: 0; }
+
+#mkt .hero {
+  background: #ffd45b;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ffd45b 0%, #ffc600 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffd45b 0%, #ffc600 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffd45b 0%, #ffc600 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd45b', endColorstr='#ffc600',GradientType=0 );
+  /* IE6-9 */
+  padding: 5.4rem 0 3rem 0; }
+  #mkt .hero .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    #mkt .hero .container .graphic {
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 10rem;
+      padding-top: 2rem; }
+    #mkt .hero .container .copy {
+      padding-top: 4rem; }
+      #mkt .hero .container .copy h1 {
+        font-weight: 500;
+        color: #ffffff;
+        margin-bottom: 1rem; }
+      #mkt .hero .container .copy h2 {
+        font-weight: 100;
+        color: #ffffff; }
+
+#mkt .section01 {
+  background: #F2f2f2;
+  padding-top: 5.4rem; }
+  #mkt .section01 .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    #mkt .section01 .container .graphic {
+      display: flex;
+      justify-content: flex-start;
+      padding: 0; }
+      #mkt .section01 .container .graphic img {
+        height: 400px;
+        width: auto; }
+    #mkt .section01 .container .copy {
+      display: flex;
+      flex-flow: column nowrap;
+      padding-left: 8rem;
+      padding-top: 4rem; }
+      #mkt .section01 .container .copy h3 {
+        font-weight: 100;
+        font-size: 2rem;
+        color: #666666;
+        margin-bottom: 2rem; }
+      #mkt .section01 .container .copy .button {
+        background: #FFC600;
+        color: #ffffff;
+        width: 8rem;
+        text-align: center;
+        text-decoration: none;
+        padding: 1rem;
+        border-radius: 8rem; }
+
+#mkt .section02 {
+  background: #666666;
+  padding: 2rem 0;
+  text-align: center; }
+  #mkt .section02 h3 {
+    color: #F2f2f2; }
