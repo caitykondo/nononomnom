@@ -1,4 +1,5 @@
-myApp.service('CheckDiet', function(){
+myApp.service('CheckDiet',  ['FoodDataFactory', '$location', function(FoodDataFactory, $location){
+  console.log('FoodDataFactory', FoodDataFactory);
   this.sanityCheck = function () {
     console.log('sanity check');
   };
@@ -8,4 +9,22 @@ myApp.service('CheckDiet', function(){
          console.log(response.data);
       });
   };
-});
+
+  this.regina = function (foodQuery, dietQuery) {
+    var foundFood = null;
+    FoodDataFactory.content.foods.forEach((element) => {
+      if (element.name === foodQuery){
+        foundFood = element;
+      }
+    });
+
+    for(i = 0; i < foundFood.diet.length; ++i){
+      if (dietQuery === foundFood.diet[i]){
+        console.log('yes');
+        return $location.path('/yes');
+      }
+    }
+    console.log('no');
+    $location.path('/no');
+  };
+}]);
