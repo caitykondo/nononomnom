@@ -14,6 +14,12 @@ myApp
       .when('/app', {
         templateUrl: 'views/app.html',
         controller: 'AppController'
+      })
+      .when('/no', {
+        templateUrl: 'views/no.html',
+      })
+      .when('/yes', {
+        templateUrl: 'views/yes.html',
       });
   })
   .run(($rootScope, $location) => {

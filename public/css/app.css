@@ -45,32 +45,78 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd45b', endColorstr='#ffc600',GradientType=0 );
   /* IE6-9 */
   padding: 5.4rem 0 3rem 0;
-  overflow: hidden; }
+  overflow: hidden;
+  max-height: 400px; }
   #mkt .hero .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
     #mkt .hero .container .graphic {
       display: flex;
+      flex-flow: column nowrap;
       justify-content: flex-end;
       padding-right: 10rem;
       padding-top: 2rem; }
       #mkt .hero .container .graphic #sausage {
-        animation: sausageBounce 4s ease-in infinite; }
+        padding-bottom: 30px;
+        width: 200px;
+        animation: sausageBounce 12s ease-in infinite; }
 
 @keyframes sausageBounce {
   0% {
     transform: translate(0, 600px); }
+  6% {
+    transform: translate(0, 0px); }
+  8% {
+    transform: translate(0, 10px); }
   20% {
-    transform: translate(0, 0px); }
-  23% {
     transform: translate(0, 10px); }
-  87% {
-    transform: translate(0, 10px); }
-  90% {
+  22% {
     transform: translate(0, 0px); }
+  33% {
+    transform: translate(0, 600px); }
   100% {
     transform: translate(0, 600px); } }
+      #mkt .hero .container .graphic #eggplant {
+        width: 200px;
+        animation: eggplantBounce 12s ease-in infinite; }
+
+@keyframes eggplantBounce {
+  0% {
+    transform: translate(0, 240px); }
+  33% {
+    transform: translate(0, 240px); }
+  39% {
+    transform: translate(0, -360px); }
+  42% {
+    transform: translate(0, -350px); }
+  54% {
+    transform: translate(0, -350px); }
+  56% {
+    transform: translate(0, 240px); }
+  66% {
+    transform: translate(0, 240px); }
+  100% {
+    transform: translate(0, 240px); } }
+      #mkt .hero .container .graphic #fish {
+        width: 200px;
+        animation: fishBounce 12s ease-in infinite; }
+
+@keyframes fishBounce {
+  0% {
+    transform: translate(0, -70px); }
+  66% {
+    transform: translate(0, -70px); }
+  72% {
+    transform: translate(0, -680px); }
+  75% {
+    transform: translate(0, -670px); }
+  87% {
+    transform: translate(0, -670px); }
+  89% {
+    transform: translate(0, -680px); }
+  99% {
+    transform: translate(0, -70px); } }
     #mkt .hero .container .copy {
       padding-top: 4rem; }
       #mkt .hero .container .copy h1 {
