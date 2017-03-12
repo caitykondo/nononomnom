@@ -11,6 +11,22 @@
     left: 45%;
     top: 40%;
   }
+  .button {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    background: $yellow-orange;
+    border: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 8rem;
+    border-radius: 4rem;
+    color: $white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 100;
+  }
+
 }
 
 #no {
@@ -26,4 +42,17 @@
     left: 45%;
     top: 40%;
   }
+  .button {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    background: $yellow-orange;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 4rem;
+    color: $white;
+    text-decoration: none;
+    text-align: center;
+  }
+
 }

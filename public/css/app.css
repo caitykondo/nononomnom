@@ -270,6 +270,20 @@ body {
     position: absolute;
     left: 45%;
     top: 40%; }
+  #yes .button {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    background: #FFAA00;
+    border: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 8rem;
+    border-radius: 4rem;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 100; }
 
 #no {
   background: #F2f2f2 url(../../assets/bg_demo.png) center bottom no-repeat;
@@ -283,3 +297,14 @@ body {
     position: absolute;
     left: 45%;
     top: 40%; }
+  #no .button {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    background: #FFAA00;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 4rem;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center; }
