@@ -22,8 +22,7 @@ body {
 #mkt .nav {
   display: block;
   width: 100%;
-  background: #ffffff;
-  position: fixed; }
+  background: #ffffff; }
   #mkt .nav h4 {
     font-weight: 500;
     color: #FFAA00;
@@ -95,6 +94,28 @@ body {
         text-decoration: none;
         padding: 1rem;
         border-radius: 8rem; }
+
+#mkt .testimonials {
+  padding: 8rem 0 8rem 0;
+  text-align: center;
+  background: #ffffff; }
+  #mkt .testimonials h2 {
+    font-weight: 100;
+    color: #E34D4C;
+    font-size: 2rem;
+    margin-bottom: 2rem; }
+  #mkt .testimonials h4 {
+    color: #E34D4C;
+    font-weight: 500;
+    margin-bottom: 2rem; }
+  #mkt .testimonials .button {
+    background: #FFC600;
+    color: #ffffff;
+    width: 8rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 8rem; }
 
 #mkt .section02 {
   background: #666666;
