@@ -3,6 +3,9 @@
     display: block;
     width: 100%;
     background: $white;
+    padding: 10px;
+    position: fixed;
+    z-index: 99;
 
     h4 {
       font-weight: 500;
@@ -21,6 +24,8 @@
     background: linear-gradient(to bottom, #ffd45b 0%,#ffc600 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd45b', endColorstr='#ffc600',GradientType=0 ); /* IE6-9 */
     padding: 5.4rem 0 3rem 0;
+    overflow: hidden;
+    max-height: 400px;
 
     .container {
       display: flex;
@@ -29,9 +34,96 @@
 
       .graphic {
         display: flex;
+        flex-flow: column nowrap;
         justify-content: flex-end;
         padding-right: 10rem;
         padding-top: 2rem;
+
+        #sausage {
+          padding-bottom: 30px;
+          width: 200px;
+          animation: sausageBounce 12s ease-in infinite;
+          @keyframes sausageBounce {
+            0% {
+              transform: translate(0, 600px);
+              }
+            6% {
+              transform: translate(0, 0px);
+              }
+            8% {
+              transform: translate(0, 10px);
+              }
+            20% {
+              transform: translate(0, 10px);
+              }
+            22% {
+              transform: translate(0, 0px);
+            }
+            33% {
+              transform: translate(0, 600px);
+            }
+            100% {
+              transform: translate(0, 600px);
+            }
+          }
+        }
+        #eggplant {
+          width: 200px;
+          animation: eggplantBounce 12s ease-in infinite;
+          @keyframes eggplantBounce {
+            0% {
+              transform: translate(0, 240px);
+            }
+            33% {
+              transform: translate(0, 240px);
+              }
+            39% {
+              transform: translate(0, -360px);
+              }
+            42% {
+              transform: translate(0, -350px);
+              }
+            54% {
+              transform: translate(0, -350px);
+              }
+            56% {
+              transform: translate(0, 240px);
+            }
+            66% {
+              transform: translate(0, 240px);
+            }
+            100% {
+              transform: translate(0, 240px);
+            }
+          }
+        }
+        #fish {
+          width: 200px;
+          animation: fishBounce 12s ease-in infinite;
+          @keyframes fishBounce {
+            0% {
+              transform: translate(0, -70px);
+            }
+            66% {
+              transform: translate(0, -70px);
+              }
+            72% {
+              transform: translate(0, -680px);
+              }
+            75% {
+              transform: translate(0, -670px);
+              }
+            87% {
+              transform: translate(0, -670px);
+              }
+            89% {
+              transform: translate(0, -680px);
+            }
+            99% {
+              transform: translate(0, -70px);
+            }
+          }
+        }
       }
 
       .copy {
