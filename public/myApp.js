@@ -16,6 +16,6 @@ myApp
         controller: 'AppController'
       });
   })
-  .run(($rootScope) => {
+  .run(($rootScope, $location) => {
     console.log('running');
   });
