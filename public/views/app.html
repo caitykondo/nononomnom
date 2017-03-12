@@ -1,14 +1,19 @@
-<div class="container">
-  <h2>Is</h2>
-  <form action="">
-    <input type="text" ng-model="foodQuery" placeholder="Your Food">
-    <div ng-model="foodQuery" ng-repeat="food in foodData.content.foods | filter:foodQuery">
-      <div>
-        {{food.name}}
-      </div>
+<!-- app styling-->
+<div id="demo">
+  <div class="app">
+    <div class="container">
+      <h2>Is</h2>
+      <form action="">
+        <input type="text" ng-model="foodQuery" placeholder="Food">
+        <div class="options" ng-model="foodQuery" ng-repeat="food in foodData.content.foods | filter:foodQuery">
+          <div>
+            {{food.name}}
+          </div>
+        </div><br>
+        <input type="text" ng-model="dietQuery" placeholder="Diet">
+        <button type="submit" ng-click="CheckDiet.regina(foodQuery,dietQuery);"><h2>check</h2></button>
+      </form>
+      <h2>?</h2>
     </div>
-    <input type="text" ng-model="dietQuery" placeholder="Your Diet">
-    <button type="submit" ng-click="CheckDiet.regina(foodQuery,dietQuery);">check</button>
-  </form>
-  <h2>?</h2>
+  </div>
 </div>

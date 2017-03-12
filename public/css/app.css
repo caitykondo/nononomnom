@@ -111,3 +111,63 @@ body {
   #mkt .footer p {
     color: #666666;
     font-size: 1rem; }
+
+#demo {
+  background: #F2f2f2; }
+  #demo .app {
+    background: #F2f2f2 url(../../assets/bg_demo.png) center bottom no-repeat;
+    height: 800px; }
+    #demo .app .container {
+      text-align: center;
+      padding-top: 14rem; }
+      #demo .app .container h2 {
+        font-weight: 100;
+        color: #ffffff;
+        margin-bottom: 1rem; }
+      #demo .app .container .options {
+        display: none; }
+      #demo .app .container input {
+        display: inline-block;
+        height: 2rem;
+        background: none;
+        border-image: none;
+        border-style: solid;
+        border-bottom: 2px solid #ffffff;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        margin-bottom: 2rem;
+        text-align: center; }
+      #demo .app .container :focus {
+        outline: none; }
+      #demo .app .container ::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: #F29090;
+        font-size: 1.4rem; }
+      #demo .app .container ::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #F29090;
+        font-size: 1.4rem; }
+      #demo .app .container :-ms-input-placeholder {
+        /* IE 10+ */
+        color: #F29090;
+        font-size: 1.4rem; }
+      #demo .app .container :-moz-placeholder {
+        /* Firefox 18- */
+        color: #F29090;
+        font-size: 1.4rem; }
+      #demo .app .container input[type=text] {
+        color: #ffffff;
+        font-size: 1.4rem; }
+      #demo .app .container button {
+        position: absolute;
+        top: 60%;
+        left: 45%;
+        background: #FFAA00;
+        border: none;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 4rem;
+        width: 10%; }
+        #demo .app .container button h2 {
+          margin-bottom: 0; }
