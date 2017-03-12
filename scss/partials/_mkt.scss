@@ -1,0 +1,110 @@
+#mkt {
+  .nav {
+    display: block;
+    width: 100%;
+    background: $white;
+    position: fixed;
+
+    h4 {
+      font-weight: 500;
+      color: $yellow-orange;
+      font-size: 1.4rem;
+      letter-spacing: 1;
+      padding: 1rem 0;
+      margin: 0;
+    }
+  }
+
+  .hero {
+    background: #ffd45b; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffd45b 0%, #ffc600 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffd45b 0%,#ffc600 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffd45b 0%,#ffc600 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd45b', endColorstr='#ffc600',GradientType=0 ); /* IE6-9 */
+    padding: 5.4rem 0 3rem 0;
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .graphic {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 10rem;
+        padding-top: 2rem;
+      }
+
+      .copy {
+        padding-top: 4rem;
+
+        h1 {
+          font-weight: 500;
+          color: $white;
+          margin-bottom: 1rem;
+        }
+        h2 {
+          font-weight: 100;
+          color: $white;
+        }
+      }
+    }
+  }
+
+  .section01 {
+      background: $gray-light;
+      padding-top: 5.4rem;
+
+      .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .graphic {
+          display: flex;
+          justify-content: flex-start;
+          padding: 0;
+
+          img {
+            height: 400px;
+            width: auto;
+          }
+        }
+
+        .copy {
+          display: flex;
+          flex-flow: column nowrap;
+          padding-left: 8rem;
+          padding-top: 4rem;
+
+          h3 {
+            font-weight: 100;
+            font-size: 2rem;
+            color: $gray;
+            margin-bottom: 2rem;
+          }
+
+          .button {
+            background: $yellow-dark;
+            color: $white;
+            width: 8rem;
+            text-align: center;
+            text-decoration: none;
+            padding: 1rem;
+            border-radius: 8rem;
+          }
+        }
+      }
+  }
+
+  .section02 {
+    background: $gray;
+    padding: 2rem 0;
+    text-align: center;
+
+    h3 {
+      color: $gray-light;
+    }
+  }
+
+}
