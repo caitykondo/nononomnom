@@ -23,7 +23,8 @@ body {
   display: block;
   width: 100%;
   background: #ffffff;
-  position: fixed; }
+  position: fixed;
+  z-index: 99; }
   #mkt .nav h4 {
     font-weight: 500;
     color: #FFAA00;
@@ -43,7 +44,8 @@ body {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd45b', endColorstr='#ffc600',GradientType=0 );
   /* IE6-9 */
-  padding: 5.4rem 0 3rem 0; }
+  padding: 5.4rem 0 3rem 0;
+  overflow: hidden; }
   #mkt .hero .container {
     display: flex;
     flex-direction: row;
@@ -53,6 +55,22 @@ body {
       justify-content: flex-end;
       padding-right: 10rem;
       padding-top: 2rem; }
+      #mkt .hero .container .graphic #sausage {
+        animation: sausageBounce 4s ease-in infinite; }
+
+@keyframes sausageBounce {
+  0% {
+    transform: translate(0, 600px); }
+  20% {
+    transform: translate(0, 0px); }
+  23% {
+    transform: translate(0, 10px); }
+  87% {
+    transform: translate(0, 10px); }
+  90% {
+    transform: translate(0, 0px); }
+  100% {
+    transform: translate(0, 600px); } }
     #mkt .hero .container .copy {
       padding-top: 4rem; }
       #mkt .hero .container .copy h1 {

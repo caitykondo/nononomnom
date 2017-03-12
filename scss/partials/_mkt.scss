@@ -4,6 +4,7 @@
     width: 100%;
     background: $white;
     position: fixed;
+    z-index: 99;
 
     h4 {
       font-weight: 500;
@@ -22,6 +23,7 @@
     background: linear-gradient(to bottom, #ffd45b 0%,#ffc600 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd45b', endColorstr='#ffc600',GradientType=0 ); /* IE6-9 */
     padding: 5.4rem 0 3rem 0;
+    overflow: hidden;
 
     .container {
       display: flex;
@@ -33,6 +35,30 @@
         justify-content: flex-end;
         padding-right: 10rem;
         padding-top: 2rem;
+
+        #sausage {
+          animation: sausageBounce 4s ease-in infinite;
+          @keyframes sausageBounce {
+            0% {
+              transform: translate(0, 600px);
+              }
+            20% {
+              transform: translate(0, 0px);
+              }
+            23% {
+              transform: translate(0, 10px);
+              }
+            87% {
+              transform: translate(0, 10px);
+              }
+            90% {
+              transform: translate(0, 0px);
+            }
+            100% {
+              transform: translate(0, 600px);
+            }
+          }
+        }
       }
 
       .copy {
