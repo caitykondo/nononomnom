@@ -126,7 +126,8 @@ body {
         margin-bottom: 1rem; }
       #mkt .hero .container .copy h2 {
         font-weight: 100;
-        color: #ffffff; }
+        color: #ffffff;
+        font-size: 2rem; }
 
 #mkt .section01 {
   background: #F2f2f2;
